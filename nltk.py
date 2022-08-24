@@ -1,4 +1,5 @@
 import numpy as np
+
 import nltk
 nltk.download('punkt')
 from nltk import stem
@@ -7,7 +8,6 @@ stemmer = stem.PorterStemmer()
 
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)
-
 
 def stem(word):
     return stemmer.stem(word.lower())
