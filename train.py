@@ -124,4 +124,5 @@ data = {
 FILE = "data.pth"
 torch.save(data, FILE)
 
+#save
 print(f'Training Done. file saved to {FILE}')
