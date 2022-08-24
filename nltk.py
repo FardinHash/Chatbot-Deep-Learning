@@ -6,13 +6,15 @@ from nltk import stem
 
 stemmer = stem.PorterStemmer()
 
+#tokenization
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)
 
+#stemming
 def stem(word):
     return stemmer.stem(word.lower())
 
-
+#bagging
 def bag_of_words(tokenized_sentence, words):
     sentence_words = [stem(word) for word in tokenized_sentence]
     # initialize bag with 0 for each word
