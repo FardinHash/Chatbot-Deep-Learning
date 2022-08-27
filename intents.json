@@ -9,7 +9,7 @@
          "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
         },
         {"tag": "thanks",
-         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
          "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
         {"tag": "hours",
