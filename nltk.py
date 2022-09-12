@@ -6,6 +6,7 @@ import numpy as np
 
 import nltk
 nltk.download('punkt')
+
 from nltk import stem
 
 stemmer= stem.PorterStemmer()
